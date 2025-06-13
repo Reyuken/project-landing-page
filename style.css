@@ -3,15 +3,17 @@ body{
     display: flex;
     justify-content: center;
     background-color: #1f2937e1;
+    
 }
 .content{
     background-color: #1f2937;
     width: 1200px;
+
 }
 ul{
     display: flex;
-     margin: 0;
-        gap: 10px;
+    margin: 0;
+    gap: 10px;
 }
 li{
     list-style: none;
@@ -76,7 +78,8 @@ a{
 }
 .sub-info{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
 }
 .stuff{
     width: 200px;    
@@ -100,11 +103,36 @@ a{
     text-align: justify;
     color: #1f2937;
     width: 800px;
-    
 }
 .quote-by{
     font-size: 24px;
     font-weight: bold;
     text-align: end;
-
+}
+.info4{
+    background-color: white;
+    color: white;
+    padding: 100px;
+}
+.blue-box{
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.title4{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.text4{
+    font-size: large;
+}
+.button4{
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    padding: 5px 30px;
+    font-size: larger;
 }
